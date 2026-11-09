@@ -1,0 +1,92 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/287 [00:00<?, ?it/s]Loading weights: 100%|##########| 287/287 [00:00<00:00, 5998.40it/s]
+wandb: Tracking run with wandb version 0.31.0
+wandb: W&B syncing is set to `offline` in this directory. Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+wandb: Run data is saved locally in C:\Users\yoame\Documents\ML\underwater\depth_estimation\model\wandb\offline-run-20261109_234835-rrhyni7o
+wandb: View this run in the terminal with `wandb leet`
+C:\Users\yoame\Documents\ML\underwater\depth_estimation\model\utils\metrices.py:165: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pearson_corr = scipy.stats.pearsonr(gt.flatten(), pred.flatten())[0]
+wandb: 
+wandb: Run summary:
+wandb: Learning Rate (per batch) 0.0
+wandb:    Loss/train (per batch) 0.06869
+wandb:             Training Loss 0.06869
+wandb:           Validation Loss 0.14929
+wandb:                        a1 0.72158
+wandb:                        a2 0.7385
+wandb:                        a3 0.81043
+wandb:                   abs_rel 0.44996
+wandb:                    log_10 0.11339
+wandb:              pearson_corr 0.1295
+wandb:                        +7 ...
+wandb: 
+wandb: You can sync this run to the cloud by running:
+wandb: wandb sync C:\Users\yoame\Documents\ML\underwater\depth_estimation\model\wandb\offline-run-20261109_234835-rrhyni7o
+wandb: Find logs at: .\wandb\offline-run-20261109_234835-rrhyni7o\logs
+Length of Dataset: 233
+trainable params: 304128 || all params: 25080001 || trainable%: 1.21
+EPOCH 1:
+  batch 4 loss: 4.406504034996033
+  batch 8 loss: 3.1833471059799194
+  batch 12 loss: 1.695892870426178
+  batch 16 loss: 0.7593948245048523
+  batch 20 loss: 0.717922180891037
+  batch 24 loss: 0.4164997562766075
+  batch 28 loss: 0.40743911266326904
+  batch 32 loss: 0.27219780534505844
+  batch 36 loss: 0.24850288778543472
+  batch 40 loss: 0.303632490336895
+  batch 44 loss: 0.1873791329562664
+LOSS train 0.1873791329562664 valid 0.2944686710834503
+EPOCH 2:
+  batch 4 loss: 0.26085763797163963
+  batch 8 loss: 0.2219419665634632
+  batch 12 loss: 0.24216380901634693
+  batch 16 loss: 0.23831401020288467
+  batch 20 loss: 0.1670264657586813
+  batch 24 loss: 0.18939282186329365
+  batch 28 loss: 0.18558561615645885
+  batch 32 loss: 0.14717749878764153
+  batch 36 loss: 0.1678183749318123
+  batch 40 loss: 0.18257727473974228
+  batch 44 loss: 0.20330745726823807
+LOSS train 0.20330745726823807 valid 0.195683091878891
+EPOCH 3:
+  batch 4 loss: 0.1512901932001114
+  batch 8 loss: 0.12594972737133503
+  batch 12 loss: 0.1121881790459156
+  batch 16 loss: 0.20891641452908516
+  batch 20 loss: 0.12847947422415018
+  batch 24 loss: 0.14430715143680573
+  batch 28 loss: 0.12268419563770294
+  batch 32 loss: 0.13589444383978844
+  batch 36 loss: 0.16290578059852123
+  batch 40 loss: 0.15846608020365238
+  batch 44 loss: 0.11759776901453733
+LOSS train 0.11759776901453733 valid 0.1572425812482834
+EPOCH 4:
+  batch 4 loss: 0.15384101681411266
+  batch 8 loss: 0.1121240733191371
+  batch 12 loss: 0.15274312905967236
+  batch 16 loss: 0.1045346986502409
+  batch 20 loss: 0.13921887055039406
+  batch 24 loss: 0.09839745610952377
+  batch 28 loss: 0.14629066362977028
+  batch 32 loss: 0.16462776809930801
+  batch 36 loss: 0.07836201880127192
+  batch 40 loss: 0.10299746505916119
+  batch 44 loss: 0.11912950128316879
+LOSS train 0.11912950128316879 valid 0.15120257437229156
+EPOCH 5:
+  batch 4 loss: 0.09968060255050659
+  batch 8 loss: 0.1054614782333374
+  batch 12 loss: 0.11699332296848297
+  batch 16 loss: 0.08774648420512676
+  batch 20 loss: 0.14606604352593422
+  batch 24 loss: 0.10730515047907829
+  batch 28 loss: 0.15612521022558212
+  batch 32 loss: 0.17295515350997448
+  batch 36 loss: 0.1242132494226098
+  batch 40 loss: 0.10251191630959511
+  batch 44 loss: 0.06869177520275116
+LOSS train 0.06869177520275116 valid 0.1492938995361328

@@ -1,0 +1,10 @@
+torch
+torchvision
+transformers
+peft
+wandb
+pandas
+numpy
+pillow
+matplotlib
+scipy

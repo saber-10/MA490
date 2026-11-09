@@ -1,0 +1,488 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/287 [00:00<?, ?it/s]Loading weights: 100%|##########| 287/287 [00:00<00:00, 5754.14it/s]
+Moddel Loaded
+Dataset Loaded
+evaluation started...
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.03605313124248476), 'a2': np.float64(0.07422376260953284), 'a3': np.float64(0.11465281770769582), 'abs_rel': np.float32(4.8626575), 'rmse': np.float32(5.4875307), 'log_10': np.float32(0.75267535), 'rmse_log': np.float32(1.8611223), 'silog': np.float32(1.5143697), 'sq_rel': np.float32(38.632668), 'psnr': np.float64(2.580716509114964), 'ssim': np.float64(0.46935877018757627), 'pearson_corr': np.float32(0.019206272), 'see': np.float32(4.455704)}
+evaluation num 0
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.030533436424732777), 'a2': np.float64(0.06259337904730143), 'a3': np.float64(0.09609728857464835), 'abs_rel': np.float32(4.597903), 'rmse': np.float32(5.1895375), 'log_10': np.float32(0.76289856), 'rmse_log': np.float32(1.863055), 'silog': np.float32(1.5670934), 'sq_rel': np.float32(32.844303), 'psnr': np.float64(2.5809203518269745), 'ssim': np.float64(0.4912889790994537), 'pearson_corr': np.float32(-0.108600214), 'see': np.float32(4.3133698)}
+evaluation num 1
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.01214658472025606), 'a2': np.float64(0.02529141058611301), 'a3': np.float64(0.04069278299971333), 'abs_rel': np.float32(5.4441137), 'rmse': np.float32(5.670812), 'log_10': np.float32(0.8323143), 'rmse_log': np.float32(1.9849641), 'silog': np.float32(1.5689976), 'sq_rel': np.float32(46.22886), 'psnr': np.float64(3.6071897109977407), 'ssim': np.float64(0.5567087356816471), 'pearson_corr': np.float32(-0.1787104), 'see': np.float32(4.9132447)}
+evaluation num 2
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.007966702058520445), 'a2': np.float64(0.01698558090202676), 'a3': np.float64(0.02801247587811688), 'abs_rel': np.float32(6.985006), 'rmse': np.float32(6.3246875), 'log_10': np.float32(0.8698493), 'rmse_log': np.float32(2.0859375), 'silog': np.float32(1.3689339), 'sq_rel': np.float32(82.76891), 'psnr': np.float64(4.1956921378924505), 'ssim': np.float64(0.5273041871342983), 'pearson_corr': np.float32(-0.1503024), 'see': np.float32(5.4732056)}
+evaluation num 3
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.014377505113118577), 'a2': np.float64(0.028676291202875688), 'a3': np.float64(0.05077612595728008), 'abs_rel': np.float32(9.34977), 'rmse': np.float32(6.428568), 'log_10': np.float32(0.89893603), 'rmse_log': np.float32(2.189765), 'silog': np.float32(0.7253295), 'sq_rel': np.float32(159.4371), 'psnr': np.float64(6.425328596215708), 'ssim': np.float64(0.573809943385805), 'pearson_corr': np.float32(-0.19213004), 'see': np.float32(5.9238005)}
+evaluation num 4
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.012055674793141166), 'a2': np.float64(0.02717983207306848), 'a3': np.float64(0.04943342007536682), 'abs_rel': np.float32(10.935938), 'rmse': np.float32(6.765659), 'log_10': np.float32(0.9786368), 'rmse_log': np.float32(2.3721478), 'silog': np.float32(0.8744522), 'sq_rel': np.float32(168.1522), 'psnr': np.float64(6.039227596242503), 'ssim': np.float64(0.4308680106915815), 'pearson_corr': np.float32(-0.31225884), 'see': np.float32(6.117675)}
+evaluation num 5
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.012127276475359076), 'a2': np.float64(0.026930084848584668), 'a3': np.float64(0.047134655200552766), 'abs_rel': np.float32(7.3900247), 'rmse': np.float32(6.2612743), 'log_10': np.float32(0.8504046), 'rmse_log': np.float32(2.062384), 'silog': np.float32(0.9766768), 'sq_rel': np.float32(83.47405), 'psnr': np.float64(5.443013800323083), 'ssim': np.float64(0.5762081609133431), 'pearson_corr': np.float32(-0.18745004), 'see': np.float32(5.5829854)}
+evaluation num 6
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.0017283982825963802), 'a2': np.float64(0.005257865105121108), 'a3': np.float64(0.021719521173087706), 'abs_rel': np.float32(6.472027), 'rmse': np.float32(5.9962444), 'log_10': np.float32(0.80933917), 'rmse_log': np.float32(1.9394673), 'silog': np.float32(0.65033084), 'sq_rel': np.float32(71.45112), 'psnr': np.float64(7.010287895912475), 'ssim': np.float64(0.763288738833261), 'pearson_corr': np.float32(-0.02091755), 'see': np.float32(5.476469)}
+evaluation num 7
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.0), 'a2': np.float64(0.002719190167598153), 'a3': np.float64(0.018718766056310957), 'abs_rel': np.float32(9.898869), 'rmse': np.float32(5.7679434), 'log_10': np.float32(0.90361917), 'rmse_log': np.float32(2.2011156), 'silog': np.float32(0.716558), 'sq_rel': np.float32(180.52428), 'psnr': np.float64(6.358590179091242), 'ssim': np.float64(0.5231842806981217), 'pearson_corr': np.float32(-0.11433174), 'see': np.float32(5.212602)}
+evaluation num 8
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.007051493841405918), 'a2': np.float64(0.020466028120382822), 'a3': np.float64(0.037711871401924876), 'abs_rel': np.float32(10.5016165), 'rmse': np.float32(5.817567), 'log_10': np.float32(0.92198443), 'rmse_log': np.float32(2.2658403), 'silog': np.float32(0.7913393), 'sq_rel': np.float32(199.65771), 'psnr': np.float64(5.98564262332947), 'ssim': np.float64(0.506816024629472), 'pearson_corr': np.float32(-0.12400277), 'see': np.float32(5.2524486)}
+evaluation num 9
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.009894754352771809), 'a2': np.float64(0.022224449940751914), 'a3': np.float64(0.0391573048910594), 'abs_rel': np.float32(5.65722), 'rmse': np.float32(5.1976233), 'log_10': np.float32(0.75882643), 'rmse_log': np.float32(1.8452628), 'silog': np.float32(0.8971151), 'sq_rel': np.float32(61.87848), 'psnr': np.float64(5.386464229785373), 'ssim': np.float64(0.6906581019187252), 'pearson_corr': np.float32(-0.19942853), 'see': np.float32(4.5914507)}
+evaluation num 10
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.015802958067908116), 'a2': np.float64(0.03646208701344659), 'a3': np.float64(0.0620855999871391), 'abs_rel': np.float32(5.84374), 'rmse': np.float32(4.8871107), 'log_10': np.float32(0.7628634), 'rmse_log': np.float32(1.8898808), 'silog': np.float32(1.282637), 'sq_rel': np.float32(68.97061), 'psnr': np.float64(3.6088266596772294), 'ssim': np.float64(0.5592748666574212), 'pearson_corr': np.float32(-0.30626002), 'see': np.float32(4.1609845)}
+evaluation num 11
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.03157849249548175), 'a2': np.float64(0.06455702977226974), 'a3': np.float64(0.09907963333966606), 'abs_rel': np.float32(2.6873088), 'rmse': np.float32(3.2447762), 'log_10': np.float32(0.813126), 'rmse_log': np.float32(1.9972578), 'silog': np.float32(1.591956), 'sq_rel': np.float32(25.528957), 'psnr': np.float64(-4.493208858776558), 'ssim': np.float64(0.19513351907459833), 'pearson_corr': np.float32(-0.17979363), 'see': np.float32(2.19566)}
+evaluation num 12
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.021222478908892527), 'a2': np.float64(0.04311814577278866), 'a3': np.float64(0.06640386705593984), 'abs_rel': np.float32(3.3605804), 'rmse': np.float32(4.627581), 'log_10': np.float32(0.9031969), 'rmse_log': np.float32(2.1721106), 'silog': np.float32(1.9980724), 'sq_rel': np.float32(55.470486), 'psnr': np.float64(-5.14829154559078), 'ssim': np.float64(0.04015904246735452), 'pearson_corr': np.float32(-0.18215412), 'see': np.float32(2.829269)}
+evaluation num 13
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.02040722877924434), 'a2': np.float64(0.04086248831187469), 'a3': np.float64(0.06206036254374252), 'abs_rel': np.float32(3.5208068), 'rmse': np.float32(5.220075), 'log_10': np.float32(0.9253899), 'rmse_log': np.float32(2.2129545), 'silog': np.float32(2.054036), 'sq_rel': np.float32(45.432583), 'psnr': np.float64(-5.04451986416995), 'ssim': np.float64(0.027147899083544952), 'pearson_corr': np.float32(-0.19928609), 'see': np.float32(3.1803362)}C:\Users\yoame\Documents\ML\underwater\depth_estimation\model\utils\metrices.py:165: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pearson_corr = scipy.stats.pearsonr(gt.flatten(), pred.flatten())[0]
+
+evaluation num 14
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.020338354205336754), 'a2': np.float64(0.04265923448299577), 'a3': np.float64(0.06895511583539331), 'abs_rel': np.float32(2.712338), 'rmse': np.float32(3.9654198), 'log_10': np.float32(0.8533926), 'rmse_log': np.float32(2.074967), 'silog': np.float32(1.8977251), 'sq_rel': np.float32(32.58583), 'psnr': np.float64(-5.262970644988243), 'ssim': np.float64(0.11679794041152154), 'pearson_corr': np.float32(-0.26043084), 'see': np.float32(2.3676488)}
+evaluation num 15
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.017313759368027953), 'a2': np.float64(0.03536134412051231), 'a3': np.float64(0.05538440314274532), 'abs_rel': np.float32(2.252135), 'rmse': np.float32(3.0763533), 'log_10': np.float32(0.8500243), 'rmse_log': np.float32(2.0396156), 'silog': np.float32(1.8632544), 'sq_rel': np.float32(14.781253), 'psnr': np.float64(-38.81363731296618), 'ssim': np.float64(0.066819221278092), 'pearson_corr': np.float32(nan), 'see': np.float32(2.1313748)}
+evaluation num 16
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.008192143086311533), 'a2': np.float64(0.017565299292039614), 'a3': np.float64(0.030056343695961434), 'abs_rel': np.float32(4.4505763), 'rmse': np.float32(4.803224), 'log_10': np.float32(0.8463481), 'rmse_log': np.float32(2.016081), 'silog': np.float32(1.9426346), 'sq_rel': np.float32(39.139904), 'psnr': np.float64(0.9920938934436475), 'ssim': np.float64(0.3733798079126149), 'pearson_corr': np.float32(-0.18231215), 'see': np.float32(3.8790295)}
+evaluation num 17
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.005936319229945731), 'a2': np.float64(0.013372454670977873), 'a3': np.float64(0.024490910685627712), 'abs_rel': np.float32(11.274792), 'rmse': np.float32(6.729007), 'log_10': np.float32(1.0144266), 'rmse_log': np.float32(2.4303894), 'silog': np.float32(1.0132337), 'sq_rel': np.float32(182.63263), 'psnr': np.float64(5.904704978078029), 'ssim': np.float64(0.38929116772169475), 'pearson_corr': np.float32(-0.0870926), 'see': np.float32(5.932775)}
+evaluation num 18
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.008163658025985532), 'a2': np.float64(0.01745878251759383), 'a3': np.float64(0.027509209108117307), 'abs_rel': np.float32(13.706247), 'rmse': np.float32(7.0754514), 'log_10': np.float32(1.062215), 'rmse_log': np.float32(2.566679), 'silog': np.float32(0.802852), 'sq_rel': np.float32(256.71875), 'psnr': np.float64(6.667767489379788), 'ssim': np.float64(0.43682234058760655), 'pearson_corr': np.float32(-0.14607339), 'see': np.float32(6.3164687)}
+evaluation num 19
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.011926394402564836), 'a2': np.float64(0.0302078390959908), 'a3': np.float64(0.05341544107630792), 'abs_rel': np.float32(10.66948), 'rmse': np.float32(6.8736057), 'log_10': np.float32(0.9346729), 'rmse_log': np.float32(2.298615), 'silog': np.float32(0.8442352), 'sq_rel': np.float32(201.95113), 'psnr': np.float64(5.379212942192597), 'ssim': np.float64(0.4388931521221903), 'pearson_corr': np.float32(-0.18157582), 'see': np.float32(6.0576415)}
+evaluation num 20
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.009176466765705627), 'a2': np.float64(0.029619083087251977), 'a3': np.float64(0.06072527091280347), 'abs_rel': np.float32(7.159987), 'rmse': np.float32(6.6482124), 'log_10': np.float32(0.82181776), 'rmse_log': np.float32(2.006204), 'silog': np.float32(0.7160535), 'sq_rel': np.float32(82.74886), 'psnr': np.float64(5.605780169022959), 'ssim': np.float64(0.6356359108783115), 'pearson_corr': np.float32(-0.094919674), 'see': np.float32(5.863384)}
+evaluation num 21
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.01040251627634047), 'a2': np.float64(0.023108598957697978), 'a3': np.float64(0.03383223027375366), 'abs_rel': np.float32(13.754809), 'rmse': np.float32(7.05369), 'log_10': np.float32(1.0439931), 'rmse_log': np.float32(2.5260382), 'silog': np.float32(0.82012033), 'sq_rel': np.float32(287.4086), 'psnr': np.float64(6.758108451978684), 'ssim': np.float64(0.45318231672177833), 'pearson_corr': np.float32(-0.10024334), 'see': np.float32(6.3472743)}
+evaluation num 22
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.003984615291403098), 'a2': np.float64(0.007607019655007824), 'a3': np.float64(0.01435617592788199), 'abs_rel': np.float32(15.646948), 'rmse': np.float32(6.969788), 'log_10': np.float32(1.1270258), 'rmse_log': np.float32(2.6955338), 'silog': np.float32(0.7311561), 'sq_rel': np.float32(325.10394), 'psnr': np.float64(7.846531670440532), 'ssim': np.float64(0.3940068486955662), 'pearson_corr': np.float32(0.021639787), 'see': np.float32(6.3218746)}
+evaluation num 23
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.0019979595669123297), 'a2': np.float64(0.0036508012392230454), 'a3': np.float64(0.009246495884720865), 'abs_rel': np.float32(16.243727), 'rmse': np.float32(7.082448), 'log_10': np.float32(1.1557934), 'rmse_log': np.float32(2.750411), 'silog': np.float32(0.69925994), 'sq_rel': np.float32(335.9546), 'psnr': np.float64(8.299864972527889), 'ssim': np.float64(0.37373421197818135), 'pearson_corr': np.float32(0.008341942), 'see': np.float32(6.429972)}
+evaluation num 24
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.0009341945041283318), 'a2': np.float64(0.004110467336025433), 'a3': np.float64(0.008722840321986572), 'abs_rel': np.float32(15.820845), 'rmse': np.float32(7.414718), 'log_10': np.float32(1.166904), 'rmse_log': np.float32(2.7543473), 'silog': np.float32(0.60364103), 'sq_rel': np.float32(295.87106), 'psnr': np.float64(9.188300337138827), 'ssim': np.float64(0.47175540160752316), 'pearson_corr': np.float32(-0.016723275), 'see': np.float32(6.8333273)}
+evaluation num 25
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.004886089663496554), 'a2': np.float64(0.013076400768615937), 'a3': np.float64(0.025343646623484546), 'abs_rel': np.float32(13.628111), 'rmse': np.float32(7.699425), 'log_10': np.float32(1.053162), 'rmse_log': np.float32(2.5461774), 'silog': np.float32(0.7780366), 'sq_rel': np.float32(271.74393), 'psnr': np.float64(6.015538411044114), 'ssim': np.float64(0.3939541933770622), 'pearson_corr': np.float32(-0.29533237), 'see': np.float32(6.9566226)}
+evaluation num 26
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.0071746669204746025), 'a2': np.float64(0.016902710827206912), 'a3': np.float64(0.029309976853987178), 'abs_rel': np.float32(9.368394), 'rmse': np.float32(7.481101), 'log_10': np.float32(0.92574567), 'rmse_log': np.float32(2.2342048), 'silog': np.float32(0.73196983), 'sq_rel': np.float32(132.27965), 'psnr': np.float64(6.174668985089847), 'ssim': np.float64(0.5167263965468848), 'pearson_corr': np.float32(-0.06512191), 'see': np.float32(6.763913)}
+evaluation num 27
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.00964667833215773), 'a2': np.float64(0.01903324608094952), 'a3': np.float64(0.02963949306406087), 'abs_rel': np.float32(8.028568), 'rmse': np.float32(7.1952343), 'log_10': np.float32(0.88554144), 'rmse_log': np.float32(2.1201332), 'silog': np.float32(0.64314604), 'sq_rel': np.float32(92.19754), 'psnr': np.float64(6.655676268846987), 'ssim': np.float64(0.6270313356550486), 'pearson_corr': np.float32(-0.04790382), 'see': np.float32(6.51627)}
+evaluation num 28
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.0016282470982835987), 'a2': np.float64(0.005254569021317869), 'a3': np.float64(0.011409815741938438), 'abs_rel': np.float32(10.787315), 'rmse': np.float32(7.4129577), 'log_10': np.float32(0.97953826), 'rmse_log': np.float32(2.3409932), 'silog': np.float32(0.63688546), 'sq_rel': np.float32(188.72836), 'psnr': np.float64(7.22186707154904), 'ssim': np.float64(0.5251688494528474), 'pearson_corr': np.float32(0.029625174), 'see': np.float32(6.8449497)}
+evaluation num 29
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.006885611262178419), 'a2': np.float64(0.013814265604914685), 'a3': np.float64(0.021697512448209118), 'abs_rel': np.float32(10.441478), 'rmse': np.float32(7.179206), 'log_10': np.float32(0.9948284), 'rmse_log': np.float32(2.3770542), 'silog': np.float32(0.9777454), 'sq_rel': np.float32(167.4887), 'psnr': np.float64(5.7771149498916685), 'ssim': np.float64(0.4505043919966322), 'pearson_corr': np.float32(-0.19843636), 'see': np.float32(6.4844613)}
+evaluation num 30
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.017295959240258264), 'a2': np.float64(0.035433971991088775), 'a3': np.float64(0.056171781708628576), 'abs_rel': np.float32(6.93336), 'rmse': np.float32(5.253702), 'log_10': np.float32(0.9123845), 'rmse_log': np.float32(2.2151742), 'silog': np.float32(2.028618), 'sq_rel': np.float32(89.487526), 'psnr': np.float64(1.0740491097198117), 'ssim': np.float64(0.2291069315100434), 'pearson_corr': np.float32(-0.5175913), 'see': np.float32(4.1825294)}
+evaluation num 31
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.027974120378600635), 'a2': np.float64(0.05666646203118507), 'a3': np.float64(0.087378997303485), 'abs_rel': np.float32(5.702386), 'rmse': np.float32(4.849697), 'log_10': np.float32(0.8419043), 'rmse_log': np.float32(2.0723536), 'silog': np.float32(1.9155004), 'sq_rel': np.float32(61.275124), 'psnr': np.float64(0.6956207470895919), 'ssim': np.float64(0.27766549534927926), 'pearson_corr': np.float32(-0.5836601), 'see': np.float32(3.7858388)}
+evaluation num 32
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.030399922540516527), 'a2': np.float64(0.06566301613377085), 'a3': np.float64(0.10921797812039019), 'abs_rel': np.float32(3.8174958), 'rmse': np.float32(3.4434695), 'log_10': np.float32(0.74736965), 'rmse_log': np.float32(1.8681738), 'silog': np.float32(1.831196), 'sq_rel': np.float32(38.51367), 'psnr': np.float64(-0.09487123261822676), 'ssim': np.float64(0.3478422381071061), 'pearson_corr': np.float32(-0.41387296), 'see': np.float32(2.6561365)}
+evaluation num 33
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.03565338868170691), 'a2': np.float64(0.069400508772387), 'a3': np.float64(0.10888948685712663), 'abs_rel': np.float32(3.287901), 'rmse': np.float32(3.1544557), 'log_10': np.float32(0.72549075), 'rmse_log': np.float32(1.8158073), 'silog': np.float32(1.8108022), 'sq_rel': np.float32(33.82691), 'psnr': np.float64(-1.2420922916341326), 'ssim': np.float64(0.2614560459731615), 'pearson_corr': np.float32(-0.3396092), 'see': np.float32(2.3750947)}
+evaluation num 34
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.1284728052544921), 'a2': np.float64(0.23770476668257126), 'a3': np.float64(0.341156241082405), 'abs_rel': np.float32(2.2957952), 'rmse': np.float32(3.1153374), 'log_10': np.float32(0.46142483), 'rmse_log': np.float32(1.2516754), 'silog': np.float32(1.05179), 'sq_rel': np.float32(13.21619), 'psnr': np.float64(0.47988032197016905), 'ssim': np.float64(0.5652636777376951), 'pearson_corr': np.float32(-0.0708002), 'see': np.float32(2.2195306)}
+evaluation num 35
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.08003037366867283), 'a2': np.float64(0.15895693829414356), 'a3': np.float64(0.24189769732572947), 'abs_rel': np.float32(2.411718), 'rmse': np.float32(3.0200286), 'log_10': np.float32(0.5373297), 'rmse_log': np.float32(1.4112775), 'silog': np.float32(1.3335891), 'sq_rel': np.float32(21.584454), 'psnr': np.float64(0.17922040790216714), 'ssim': np.float64(0.5276911009263195), 'pearson_corr': np.float32(-0.1157456), 'see': np.float32(2.1927247)}
+evaluation num 36
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.026442680011295808), 'a2': np.float64(0.0572209019322175), 'a3': np.float64(0.09273584801938568), 'abs_rel': np.float32(4.6608424), 'rmse': np.float32(5.3322935), 'log_10': np.float32(0.81188524), 'rmse_log': np.float32(1.9808924), 'silog': np.float32(1.9604458), 'sq_rel': np.float32(57.615547), 'psnr': np.float64(-35.63243770371744), 'ssim': np.float64(0.1464582652275725), 'pearson_corr': np.float32(nan), 'see': np.float32(3.9206147)}
+evaluation num 37
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.012851963406125525), 'a2': np.float64(0.026250785747708234), 'a3': np.float64(0.041708602151819284), 'abs_rel': np.float32(5.7667637), 'rmse': np.float32(5.7633886), 'log_10': np.float32(0.9176272), 'rmse_log': np.float32(2.202565), 'silog': np.float32(2.163963), 'sq_rel': np.float32(67.76303), 'psnr': np.float64(-0.7863445026778123), 'ssim': np.float64(0.1449534895546209), 'pearson_corr': np.float32(-0.48831674), 'see': np.float32(4.257743)}
+evaluation num 38
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.0049042678733381695), 'a2': np.float64(0.010686485861186529), 'a3': np.float64(0.018982245555476986), 'abs_rel': np.float32(5.5069714), 'rmse': np.float32(5.991701), 'log_10': np.float32(0.9103135), 'rmse_log': np.float32(2.1625803), 'silog': np.float32(2.0835068), 'sq_rel': np.float32(55.59669), 'psnr': np.float64(0.12888783042025784), 'ssim': np.float64(0.254829712450774), 'pearson_corr': np.float32(-0.30628082), 'see': np.float32(4.6150928)}
+evaluation num 39
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.005232260212037554), 'a2': np.float64(0.011830607333501157), 'a3': np.float64(0.02165306980975645), 'abs_rel': np.float32(4.888295), 'rmse': np.float32(6.0256076), 'log_10': np.float32(0.88290596), 'rmse_log': np.float32(2.09767), 'silog': np.float32(2.030974), 'sq_rel': np.float32(43.262356), 'psnr': np.float64(-0.20860952926410403), 'ssim': np.float64(0.326853945997843), 'pearson_corr': np.float32(-0.20268218), 'see': np.float32(4.6419992)}
+evaluation num 40
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.003252282214106013), 'a2': np.float64(0.00718794964391153), 'a3': np.float64(0.012438990851367902), 'abs_rel': np.float32(5.6055694), 'rmse': np.float32(5.45554), 'log_10': np.float32(0.97279525), 'rmse_log': np.float32(2.2992773), 'silog': np.float32(2.2967148), 'sq_rel': np.float32(86.609055), 'psnr': np.float64(-2.1474583161349132), 'ssim': np.float64(0.09664853539339109), 'pearson_corr': np.float32(-0.44765875), 'see': np.float32(3.8936229)}
+evaluation num 41
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.003600151537143067), 'a2': np.float64(0.007714285384006602), 'a3': np.float64(0.01297893123165376), 'abs_rel': np.float32(5.249714), 'rmse': np.float32(5.7264395), 'log_10': np.float32(0.9544344), 'rmse_log': np.float32(2.2516189), 'silog': np.float32(2.2511368), 'sq_rel': np.float32(73.79764), 'psnr': np.float64(-1.56731508059654), 'ssim': np.float64(0.16023564262622872), 'pearson_corr': np.float32(-0.2965605), 'see': np.float32(4.1850004)}
+evaluation num 42
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.005212029387428315), 'a2': np.float64(0.010758623592791896), 'a3': np.float64(0.017437480316764512), 'abs_rel': np.float32(5.98705), 'rmse': np.float32(5.755381), 'log_10': np.float32(0.9528849), 'rmse_log': np.float32(2.2645562), 'silog': np.float32(2.2522418), 'sq_rel': np.float32(91.70189), 'psnr': np.float64(-1.2730242685119983), 'ssim': np.float64(0.15310161907382622), 'pearson_corr': np.float32(-0.42775404), 'see': np.float32(4.275646)}
+evaluation num 43
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.006045216920830692), 'a2': np.float64(0.012347696674516179), 'a3': np.float64(0.018809589173694605), 'abs_rel': np.float32(5.572947), 'rmse': np.float32(5.8777423), 'log_10': np.float32(0.9670153), 'rmse_log': np.float32(2.2881923), 'silog': np.float32(2.2874188), 'sq_rel': np.float32(81.68382), 'psnr': np.float64(-2.263056984160558), 'ssim': np.float64(0.08013887669194081), 'pearson_corr': np.float32(-0.4659081), 'see': np.float32(4.16068)}
+evaluation num 44
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.005483081014015834), 'a2': np.float64(0.011222352527385678), 'a3': np.float64(0.017270932646393497), 'abs_rel': np.float32(5.186648), 'rmse': np.float32(5.6080117), 'log_10': np.float32(0.9711257), 'rmse_log': np.float32(2.294087), 'silog': np.float32(2.2773602), 'sq_rel': np.float32(75.158005), 'psnr': np.float64(-3.237102679924303), 'ssim': np.float64(0.019251115123393205), 'pearson_corr': np.float32(-0.52777594), 'see': np.float32(3.798783)}
+evaluation num 45
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.008634446393737914), 'a2': np.float64(0.016738659370239467), 'a3': np.float64(0.02506502425411143), 'abs_rel': np.float32(4.6190557), 'rmse': np.float32(5.4721913), 'log_10': np.float32(0.9421354), 'rmse_log': np.float32(2.2345026), 'silog': np.float32(2.211966), 'sq_rel': np.float32(59.597855), 'psnr': np.float64(-3.257292021312041), 'ssim': np.float64(0.07744247364352812), 'pearson_corr': np.float32(-0.44347516), 'see': np.float32(3.6297598)}
+evaluation num 46
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.02263762315117533), 'a2': np.float64(0.04193038307624758), 'a3': np.float64(0.0595276390121128), 'abs_rel': np.float32(5.0832434), 'rmse': np.float32(5.7909164), 'log_10': np.float32(0.9023378), 'rmse_log': np.float32(2.1782372), 'silog': np.float32(1.9925718), 'sq_rel': np.float32(66.84471), 'psnr': np.float64(-2.465035024604638), 'ssim': np.float64(0.19549759861378121), 'pearson_corr': np.float32(-0.42596486), 'see': np.float32(4.0986953)}
+evaluation num 47
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.036201329111457396), 'a2': np.float64(0.0738390330941953), 'a3': np.float64(0.11242932711415866), 'abs_rel': np.float32(3.1845868), 'rmse': np.float32(3.6732407), 'log_10': np.float32(0.79167163), 'rmse_log': np.float32(1.9649462), 'silog': np.float32(1.771629), 'sq_rel': np.float32(47.877644), 'psnr': np.float64(-3.5852218374265714), 'ssim': np.float64(0.22056158037602208), 'pearson_corr': np.float32(-0.43706548), 'see': np.float32(2.425315)}
+evaluation num 48
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.027703000915512373), 'a2': np.float64(0.05647043777765492), 'a3': np.float64(0.08804879874150243), 'abs_rel': np.float32(3.1809807), 'rmse': np.float32(3.6240406), 'log_10': np.float32(0.7521012), 'rmse_log': np.float32(1.8501644), 'silog': np.float32(1.8455316), 'sq_rel': np.float32(26.810425), 'psnr': np.float64(-0.5194816206440962), 'ssim': np.float64(0.3816313421409303), 'pearson_corr': np.float32(-0.19798023), 'see': np.float32(2.7670708)}
+evaluation num 49
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.03503674648064543), 'a2': np.float64(0.07269904185430784), 'a3': np.float64(0.11438482622797697), 'abs_rel': np.float32(3.353809), 'rmse': np.float32(3.693018), 'log_10': np.float32(0.7538263), 'rmse_log': np.float32(1.885052), 'silog': np.float32(1.8805128), 'sq_rel': np.float32(36.334576), 'psnr': np.float64(-1.5587808152021334), 'ssim': np.float64(0.30649632888782363), 'pearson_corr': np.float32(-0.36693513), 'see': np.float32(2.6573577)}
+evaluation num 50
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.0244787738599634), 'a2': np.float64(0.051542349313124264), 'a3': np.float64(0.08347481119818652), 'abs_rel': np.float32(4.9519277), 'rmse': np.float32(5.3860493), 'log_10': np.float32(0.8437234), 'rmse_log': np.float32(2.0670323), 'silog': np.float32(2.0178537), 'sq_rel': np.float32(51.879463), 'psnr': np.float64(-0.7516339970760927), 'ssim': np.float64(0.2588631726472409), 'pearson_corr': np.float32(-0.5108687), 'see': np.float32(4.0093317)}
+evaluation num 51
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.02669220219909348), 'a2': np.float64(0.05493700348846861), 'a3': np.float64(0.08472225999376584), 'abs_rel': np.float32(5.5508947), 'rmse': np.float32(5.108976), 'log_10': np.float32(0.8653262), 'rmse_log': np.float32(2.1232119), 'silog': np.float32(2.0573459), 'sq_rel': np.float32(63.46638), 'psnr': np.float64(-0.35686092646187617), 'ssim': np.float64(0.22017638808303272), 'pearson_corr': np.float32(-0.62354743), 'see': np.float32(3.859139)}
+evaluation num 52
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.0310057049040911), 'a2': np.float64(0.06382001751893843), 'a3': np.float64(0.10290517281025749), 'abs_rel': np.float32(4.75268), 'rmse': np.float32(4.6665673), 'log_10': np.float32(0.80752856), 'rmse_log': np.float32(2.0005865), 'silog': np.float32(1.9382205), 'sq_rel': np.float32(48.487278), 'psnr': np.float64(-0.36046946329022395), 'ssim': np.float64(0.26483468509807173), 'pearson_corr': np.float32(-0.52863955), 'see': np.float32(3.4911604)}
+evaluation num 53
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.03246605140868776), 'a2': np.float64(0.06725076332150594), 'a3': np.float64(0.1082823308763568), 'abs_rel': np.float32(3.3703215), 'rmse': np.float32(3.939633), 'log_10': np.float32(0.7334839), 'rmse_log': np.float32(1.8327364), 'silog': np.float32(1.8175343), 'sq_rel': np.float32(29.521948), 'psnr': np.float64(-1.165054730922771), 'ssim': np.float64(0.3280672738436882), 'pearson_corr': np.float32(-0.32959142), 'see': np.float32(2.850818)}
+evaluation num 54
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.03464032950354265), 'a2': np.float64(0.07241918788852722), 'a3': np.float64(0.11734013287169591), 'abs_rel': np.float32(2.915182), 'rmse': np.float32(3.2017884), 'log_10': np.float32(0.70067805), 'rmse_log': np.float32(1.7667161), 'silog': np.float32(1.7630931), 'sq_rel': np.float32(23.510181), 'psnr': np.float64(-1.160713502580673), 'ssim': np.float64(0.339788987275274), 'pearson_corr': np.float32(-0.43475872), 'see': np.float32(2.329248)}
+evaluation num 55
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.025718618127847453), 'a2': np.float64(0.052657974611387486), 'a3': np.float64(0.08393005715260811), 'abs_rel': np.float32(6.3680763), 'rmse': np.float32(4.4735107), 'log_10': np.float32(0.80270433), 'rmse_log': np.float32(1.9915705), 'silog': np.float32(1.4583203), 'sq_rel': np.float32(87.692215), 'psnr': np.float64(2.4373062035204414), 'ssim': np.float64(0.43946355329065623), 'pearson_corr': np.float32(-0.3536372), 'see': np.float32(3.7526386)}
+evaluation num 56
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.019724107609862367), 'a2': np.float64(0.04128088559633898), 'a3': np.float64(0.06941620682355676), 'abs_rel': np.float32(6.569686), 'rmse': np.float32(5.310235), 'log_10': np.float32(0.8386095), 'rmse_log': np.float32(2.045272), 'silog': np.float32(1.4640471), 'sq_rel': np.float32(67.44155), 'psnr': np.float64(3.6554805665722583), 'ssim': np.float64(0.377535797040644), 'pearson_corr': np.float32(-0.44020468), 'see': np.float32(4.513004)}
+evaluation num 57
+inputs torch.Size([1, 3, 518, 518])
+labels torch.Size([1, 1, 518, 518])
+{'a1': np.float64(0.03435742619702437), 'a2': np.float64(0.07545050508065991), 'a3': np.float64(0.1277199162614702), 'abs_rel': np.float32(6.723038), 'rmse': np.float32(4.8883877), 'log_10': np.float32(0.8312588), 'rmse_log': np.float32(2.0942612), 'silog': np.float32(1.7762994), 'sq_rel': np.float32(80.889824), 'psnr': np.float64(1.312732386294114), 'ssim': np.float64(0.22626886078788952), 'pearson_corr': np.float32(-0.5990382), 'see': np.float32(3.7863908)}
+evaluation num 58
+evaluation ended; processing data...
+Evaluation metrics saved as C:\Users\yoame\Documents\ML\underwater\eval\without_training.csv
+Moddel Loaded
+Dataset Loaded
+evaluation started...
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.9114295984213161), 'a2': np.float64(0.9615355169781805), 'a3': np.float64(0.9637314387846518), 'abs_rel': np.float32(0.12772955), 'rmse': np.float32(0.12766434), 'log_10': np.float32(0.034197528), 'rmse_log': np.float32(0.21042965), 'silog': np.float32(0.20071195), 'sq_rel': np.float32(0.29012543), 'psnr': np.float64(18.483357330894712), 'ssim': np.float64(0.8414087518713633), 'pearson_corr': np.float32(0.08433747), 'see': np.float32(0.03963784)}
+evaluation num 0
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.9395047170741402), 'a2': np.float64(0.9836051665700711), 'a3': np.float64(0.9935826484749245), 'abs_rel': np.float32(0.06261319), 'rmse': np.float32(0.08633458), 'log_10': np.float32(0.020645453), 'rmse_log': np.float32(0.1268007), 'silog': np.float32(0.12313926), 'sq_rel': np.float32(0.088526145), 'psnr': np.float64(21.558629925238854), 'ssim': np.float64(0.8902655920924694), 'pearson_corr': np.float32(0.07386389), 'see': np.float32(0.029376216)}
+evaluation num 1
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.9375437751945681), 'a2': np.float64(0.9622615263048006), 'a3': np.float64(0.972776264451257), 'abs_rel': np.float32(0.08901616), 'rmse': np.float32(0.118527636), 'log_10': np.float32(0.02680794), 'rmse_log': np.float32(0.1870325), 'silog': np.float32(0.18362252), 'sq_rel': np.float32(0.137055), 'psnr': np.float64(18.034585665170304), 'ssim': np.float64(0.8819516836513484), 'pearson_corr': np.float32(0.026244832), 'see': np.float32(0.032658827)}
+evaluation num 2
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.8331359588262183), 'a2': np.float64(0.8617799738360677), 'a3': np.float64(0.923357463035867), 'abs_rel': np.float32(0.24009651), 'rmse': np.float32(0.20284632), 'log_10': np.float32(0.06349059), 'rmse_log': np.float32(0.33757028), 'silog': np.float32(0.3141682), 'sq_rel': np.float32(0.53492576), 'psnr': np.float64(13.883942232737434), 'ssim': np.float64(0.7816512586155364), 'pearson_corr': np.float32(0.05025961), 'see': np.float32(0.06874802)}
+evaluation num 3
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.8065563546829111), 'a2': np.float64(0.8174078070144226), 'a3': np.float64(0.8267337908123409), 'abs_rel': np.float32(0.46945846), 'rmse': np.float32(0.27915356), 'log_10': np.float32(0.10485396), 'rmse_log': np.float32(0.5117037), 'silog': np.float32(0.46778226), 'sq_rel': np.float32(1.3542064), 'psnr': np.float64(10.982037843669644), 'ssim': np.float64(0.7003550497939348), 'pearson_corr': np.float32(0.26419702), 'see': np.float32(0.092216685)}
+evaluation num 4
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.5162782326706367), 'a2': np.float64(0.5379453807081674), 'a3': np.float64(0.6471007043622029), 'abs_rel': np.float32(0.6773655), 'rmse': np.float32(0.37468207), 'log_10': np.float32(0.17911299), 'rmse_log': np.float32(0.5892712), 'silog': np.float32(0.42565835), 'sq_rel': np.float32(1.1941866), 'psnr': np.float64(10.6338802675372), 'ssim': np.float64(0.5600859672903681), 'pearson_corr': np.float32(0.2826039), 'see': np.float32(0.19338372)}
+evaluation num 5
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.8144098765199544), 'a2': np.float64(0.826342742166631), 'a3': np.float64(0.8651134990786787), 'abs_rel': np.float32(0.2678495), 'rmse': np.float32(0.23050618), 'log_10': np.float32(0.072649226), 'rmse_log': np.float32(0.3604439), 'silog': np.float32(0.3224905), 'sq_rel': np.float32(0.47042954), 'psnr': np.float64(13.063957011223794), 'ssim': np.float64(0.7494158290177126), 'pearson_corr': np.float32(0.20590624), 'see': np.float32(0.073038876)}
+evaluation num 6
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.9492168008255477), 'a2': np.float64(0.9526053167211461), 'a3': np.float64(0.9553203999094553), 'abs_rel': np.float32(0.17675772), 'rmse': np.float32(0.15320136), 'log_10': np.float32(0.0374142), 'rmse_log': np.float32(0.29810238), 'silog': np.float32(0.29191798), 'sq_rel': np.float32(0.6414983), 'psnr': np.float64(15.846641146289814), 'ssim': np.float64(0.8937735303773973), 'pearson_corr': np.float32(0.15842499), 'see': np.float32(0.035424914)}
+evaluation num 7
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.7221845186295593), 'a2': np.float64(0.7356428054540568), 'a3': np.float64(0.7469727288571212), 'abs_rel': np.float32(0.78080165), 'rmse': np.float32(0.33372793), 'log_10': np.float32(0.1567763), 'rmse_log': np.float32(0.6468819), 'silog': np.float32(0.5303177), 'sq_rel': np.float32(2.7811942), 'psnr': np.float64(10.79650830474574), 'ssim': np.float64(0.6226906042954413), 'pearson_corr': np.float32(0.18786733), 'see': np.float32(0.12600462)}
+evaluation num 8
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.6870704819111917), 'a2': np.float64(0.7005586570313385), 'a3': np.float64(0.7120760074642433), 'abs_rel': np.float32(0.8937073), 'rmse': np.float32(0.37651548), 'log_10': np.float32(0.176293), 'rmse_log': np.float32(0.7182735), 'silog': np.float32(0.5920586), 'sq_rel': np.float32(3.2897565), 'psnr': np.float64(9.455372943461716), 'ssim': np.float64(0.600647282355288), 'pearson_corr': np.float32(0.19108379), 'see': np.float32(0.1512576)}
+evaluation num 9
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.9189813398864539), 'a2': np.float64(0.9257907300756234), 'a3': np.float64(0.9370880380499884), 'abs_rel': np.float32(0.16746226), 'rmse': np.float32(0.15578972), 'log_10': np.float32(0.04025159), 'rmse_log': np.float32(0.27253067), 'silog': np.float32(0.26168436), 'sq_rel': np.float32(0.48502627), 'psnr': np.float64(16.69586122384109), 'ssim': np.float64(0.8516793516266287), 'pearson_corr': np.float32(0.043412443), 'see': np.float32(0.037689015)}
+evaluation num 10
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.8576145116856618), 'a2': np.float64(0.867244992090758), 'a3': np.float64(0.8812296059094678), 'abs_rel': np.float32(0.26445878), 'rmse': np.float32(0.22303915), 'log_10': np.float32(0.06525461), 'rmse_log': np.float32(0.37714177), 'silog': np.float32(0.3553177), 'sq_rel': np.float32(0.61597025), 'psnr': np.float64(12.665576191963705), 'ssim': np.float64(0.7832428977207778), 'pearson_corr': np.float32(0.10633049), 'see': np.float32(0.06009508)}
+evaluation num 11
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.9615398860436408), 'a2': np.float64(0.9641854738411397), 'a3': np.float64(0.9666006177771833), 'abs_rel': np.float32(0.08453824), 'rmse': np.float32(0.0816087), 'log_10': np.float32(0.02262066), 'rmse_log': np.float32(0.13568169), 'silog': np.float32(0.12953012), 'sq_rel': np.float32(0.17387848), 'psnr': np.float64(25.45345027274129), 'ssim': np.float64(0.9342472574281497), 'pearson_corr': np.float32(-0.035576317), 'see': np.float32(0.026116934)}
+evaluation num 12
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.9838395435424698), 'a2': np.float64(0.9851882033192244), 'a3': np.float64(0.9862197498841382), 'abs_rel': np.float32(0.06166025), 'rmse': np.float32(0.07651123), 'log_10': np.float32(0.014996925), 'rmse_log': np.float32(0.13968825), 'silog': np.float32(0.13825986), 'sq_rel': np.float32(0.19231497), 'psnr': np.float64(24.190328950774948), 'ssim': np.float64(0.9554997423786755), 'pearson_corr': np.float32(-0.07449505), 'see': np.float32(0.018317495)}
+evaluation num 13
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.9863506081280142), 'a2': np.float64(0.987827294825998), 'a3': np.float64(0.9889124017709802), 'abs_rel': np.float32(0.045388177), 'rmse': np.float32(0.07511511), 'log_10': np.float32(0.013170226), 'rmse_log': np.float32(0.12890555), 'silog': np.float32(0.12837254), 'sq_rel': np.float32(0.09223251), 'psnr': np.float64(22.05457435770354), 'ssim': np.float64(0.9556409641806851), 'pearson_corr': np.float32(-0.069491774), 'see': np.float32(0.018195365)}
+evaluation num 14
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.9849097512510222), 'a2': np.float64(0.9863509851264337), 'a3': np.float64(0.9874752827790592), 'abs_rel': np.float32(0.048788488), 'rmse': np.float32(0.07521033), 'log_10': np.float32(0.013254705), 'rmse_log': np.float32(0.13172962), 'silog': np.float32(0.13046065), 'sq_rel': np.float32(0.1114366), 'psnr': np.float64(22.621682332034517), 'ssim': np.float64(0.9570049792503788), 'pearson_corr': np.float32(-0.0141995875), 'see': np.float32(0.017078076)}C:\Users\yoame\Documents\ML\underwater\depth_estimation\model\utils\metrices.py:165: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pearson_corr = scipy.stats.pearsonr(gt.flatten(), pred.flatten())[0]
+
+evaluation num 15
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.9940147420109491), 'a2': np.float64(0.9948128594692768), 'a3': np.float64(0.9958792815677693), 'abs_rel': np.float32(0.029311), 'rmse': np.float32(0.04485214), 'log_10': np.float32(0.009091356), 'rmse_log': np.float32(0.07567289), 'silog': np.float32(0.074812934), 'sq_rel': np.float32(0.060541917), 'psnr': np.float64(-6.60022903311923), 'ssim': np.float64(0.7260541239842896), 'pearson_corr': np.float32(nan), 'see': np.float32(0.015001144)}
+evaluation num 16
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.9502888082068954), 'a2': np.float64(0.9564371201930404), 'a3': np.float64(0.9706364670380325), 'abs_rel': np.float32(0.10223713), 'rmse': np.float32(0.124431394), 'log_10': np.float32(0.026928807), 'rmse_log': np.float32(0.21580243), 'silog': np.float32(0.21265155), 'sq_rel': np.float32(0.24919002), 'psnr': np.float64(17.512537148799137), 'ssim': np.float64(0.8764994531880745), 'pearson_corr': np.float32(0.16151462), 'see': np.float32(0.027210116)}
+evaluation num 17
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.5091076646216306), 'a2': np.float64(0.5422455012311149), 'a3': np.float64(0.7495163731346596), 'abs_rel': np.float32(0.77108073), 'rmse': np.float32(0.34070912), 'log_10': np.float32(0.19080658), 'rmse_log': np.float32(0.6151551), 'silog': np.float32(0.46966332), 'sq_rel': np.float32(1.884132), 'psnr': np.float64(11.094188351845975), 'ssim': np.float64(0.5285551489922345), 'pearson_corr': np.float32(0.16822356), 'see': np.float32(0.18771127)}
+evaluation num 18
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.3941948795179424), 'a2': np.float64(0.4193991369847613), 'a3': np.float64(0.5537210074465161), 'abs_rel': np.float32(1.0199676), 'rmse': np.float32(0.40909734), 'log_10': np.float32(0.24803182), 'rmse_log': np.float32(0.7351521), 'silog': np.float32(0.51428276), 'sq_rel': np.float32(2.5440314), 'psnr': np.float64(9.969234443451935), 'ssim': np.float64(0.5356568983175012), 'pearson_corr': np.float32(0.26199067), 'see': np.float32(0.26210588)}
+evaluation num 19
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.647928600067009), 'a2': np.float64(0.6733538541432635), 'a3': np.float64(0.7809852156004158), 'abs_rel': np.float32(0.6064396), 'rmse': np.float32(0.30987632), 'log_10': np.float32(0.15410754), 'rmse_log': np.float32(0.5576504), 'silog': np.float32(0.4837777), 'sq_rel': np.float32(1.415224), 'psnr': np.float64(10.432629692307263), 'ssim': np.float64(0.5781262691532255), 'pearson_corr': np.float32(0.27158922), 'see': np.float32(0.15825339)}
+evaluation num 20
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.8920126254183753), 'a2': np.float64(0.9043678035500506), 'a3': np.float64(0.932739395016457), 'abs_rel': np.float32(0.22819398), 'rmse': np.float32(0.18028195), 'log_10': np.float32(0.07014514), 'rmse_log': np.float32(0.29988784), 'silog': np.float32(0.29325897), 'sq_rel': np.float32(0.3896855), 'psnr': np.float64(14.693078667551196), 'ssim': np.float64(0.8028368589785366), 'pearson_corr': np.float32(0.13702254), 'see': np.float32(0.09373088)}
+evaluation num 21
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.5136474536476355), 'a2': np.float64(0.5368133951373023), 'a3': np.float64(0.6151125354559925), 'abs_rel': np.float32(1.0283034), 'rmse': np.float32(0.3861577), 'log_10': np.float32(0.2321878), 'rmse_log': np.float32(0.7358834), 'silog': np.float32(0.54180646), 'sq_rel': np.float32(3.1489058), 'psnr': np.float64(10.318526716410151), 'ssim': np.float64(0.5577718315472314), 'pearson_corr': np.float32(0.109338574), 'see': np.float32(0.22812223)}
+evaluation num 22
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.34780618561576443), 'a2': np.float64(0.37743753005426295), 'a3': np.float64(0.4834198852369466), 'abs_rel': np.float32(1.3465962), 'rmse': np.float32(0.44665375), 'log_10': np.float32(0.29853952), 'rmse_log': np.float32(0.87600183), 'silog': np.float32(0.5945694), 'sq_rel': np.float32(4.1990886), 'psnr': np.float64(9.683838486081479), 'ssim': np.float64(0.4469521623415716), 'pearson_corr': np.float32(0.21387658), 'see': np.float32(0.2848521)}
+evaluation num 23
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.27564724135234164), 'a2': np.float64(0.3115499138953255), 'a3': np.float64(0.4433644098823998), 'abs_rel': np.float32(1.3204722), 'rmse': np.float32(0.453044), 'log_10': np.float32(0.31004238), 'rmse_log': np.float32(0.8669559), 'silog': np.float32(0.5508501), 'sq_rel': np.float32(3.3949447), 'psnr': np.float64(10.011620993328432), 'ssim': np.float64(0.41867725614907747), 'pearson_corr': np.float32(0.26621923), 'see': np.float32(0.2925895)}
+evaluation num 24
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.22078910264803547), 'a2': np.float64(0.2560860601164451), 'a3': np.float64(0.4857834226401605), 'abs_rel': np.float32(1.0993694), 'rmse': np.float32(0.4370061), 'log_10': np.float32(0.28785366), 'rmse_log': np.float32(0.771585), 'silog': np.float32(0.44545615), 'sq_rel': np.float32(2.0091107), 'psnr': np.float64(11.212579261587544), 'ssim': np.float64(0.5069490130097923), 'pearson_corr': np.float32(0.21516293), 'see': np.float32(0.30303568)}
+evaluation num 25
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.5072051127187327), 'a2': np.float64(0.5339900772799545), 'a3': np.float64(0.6680776408295066), 'abs_rel': np.float32(0.7292017), 'rmse': np.float32(0.35067666), 'log_10': np.float32(0.19700283), 'rmse_log': np.float32(0.6099453), 'silog': np.float32(0.47801802), 'sq_rel': np.float32(1.2932651), 'psnr': np.float64(10.05717715077651), 'ssim': np.float64(0.5144625007501588), 'pearson_corr': np.float32(0.32992274), 'see': np.float32(0.20279428)}
+evaluation num 26
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.7800449433053932), 'a2': np.float64(0.8081060422118891), 'a3': np.float64(0.8764972328803402), 'abs_rel': np.float32(0.36251086), 'rmse': np.float32(0.23797935), 'log_10': np.float32(0.10779421), 'rmse_log': np.float32(0.40010768), 'silog': np.float32(0.3835214), 'sq_rel': np.float32(0.6039908), 'psnr': np.float64(11.801047983408052), 'ssim': np.float64(0.6595650756525812), 'pearson_corr': np.float32(0.14106904), 'see': np.float32(0.12827347)}
+evaluation num 27
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.8531116137989553), 'a2': np.float64(0.8879013071550983), 'a3': np.float64(0.9312280916232208), 'abs_rel': np.float32(0.27064425), 'rmse': np.float32(0.19533856), 'log_10': np.float32(0.08468366), 'rmse_log': np.float32(0.31609264), 'silog': np.float32(0.299956), 'sq_rel': np.float32(0.4350463), 'psnr': np.float64(14.451167977757354), 'ssim': np.float64(0.7697095892202199), 'pearson_corr': np.float32(0.1426632), 'see': np.float32(0.116790764)}
+evaluation num 28
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.7437560473259844), 'a2': np.float64(0.7699261778392392), 'a3': np.float64(0.7967485569095436), 'abs_rel': np.float32(0.54947615), 'rmse': np.float32(0.28959465), 'log_10': np.float32(0.13963918), 'rmse_log': np.float32(0.52674246), 'silog': np.float32(0.48338062), 'sq_rel': np.float32(1.3208053), 'psnr': np.float64(10.506725804187443), 'ssim': np.float64(0.6168543074188158), 'pearson_corr': np.float32(0.069432154), 'see': np.float32(0.14853197)}
+evaluation num 29
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.6612350076439683), 'a2': np.float64(0.6855337698343394), 'a3': np.float64(0.7796742154727905), 'abs_rel': np.float32(0.5044419), 'rmse': np.float32(0.2914338), 'log_10': np.float32(0.13986824), 'rmse_log': np.float32(0.48235357), 'silog': np.float32(0.4107664), 'sq_rel': np.float32(0.922259), 'psnr': np.float64(11.166184011637165), 'ssim': np.float64(0.6420364469282489), 'pearson_corr': np.float32(0.18017255), 'see': np.float32(0.16029936)}
+evaluation num 30
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.6569944294127628), 'a2': np.float64(0.6843574679241398), 'a3': np.float64(0.8375296286326582), 'abs_rel': np.float32(0.42128015), 'rmse': np.float32(0.2967827), 'log_10': np.float32(0.11491744), 'rmse_log': np.float32(0.46280506), 'silog': np.float32(0.3906983), 'sq_rel': np.float32(0.7363168), 'psnr': np.float64(11.224299421551686), 'ssim': np.float64(0.6721439752079397), 'pearson_corr': np.float32(0.25204673), 'see': np.float32(0.123800494)}
+evaluation num 31
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.6694586065373924), 'a2': np.float64(0.7808062307456655), 'a3': np.float64(0.9210644040521271), 'abs_rel': np.float32(0.29405764), 'rmse': np.float32(0.2461084), 'log_10': np.float32(0.08836338), 'rmse_log': np.float32(0.36140063), 'silog': np.float32(0.3074805), 'sq_rel': np.float32(0.3877187), 'psnr': np.float64(12.768333633580635), 'ssim': np.float64(0.7384435959924152), 'pearson_corr': np.float32(0.3094868), 'see': np.float32(0.10621521)}
+evaluation num 32
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.8797570251544716), 'a2': np.float64(0.8934770716111444), 'a3': np.float64(0.916510785564432), 'abs_rel': np.float32(0.19967236), 'rmse': np.float32(0.18677656), 'log_10': np.float32(0.052129194), 'rmse_log': np.float32(0.3138151), 'silog': np.float32(0.29659775), 'sq_rel': np.float32(0.3946732), 'psnr': np.float64(14.462679195535681), 'ssim': np.float64(0.8421630581876536), 'pearson_corr': np.float32(0.25281486), 'see': np.float32(0.053012606)}
+evaluation num 33
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.9287754254493633), 'a2': np.float64(0.9343214981600274), 'a3': np.float64(0.9394395609544638), 'abs_rel': np.float32(0.16898866), 'rmse': np.float32(0.1581594), 'log_10': np.float32(0.0396197), 'rmse_log': np.float32(0.27599406), 'silog': np.float32(0.26528162), 'sq_rel': np.float32(0.46304873), 'psnr': np.float64(15.765983883324179), 'ssim': np.float64(0.8618404939212282), 'pearson_corr': np.float32(0.20352665), 'see': np.float32(0.034134116)}
+evaluation num 34
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.9968587617253453), 'a2': np.float64(0.9972345668313373), 'a3': np.float64(0.997469585768533), 'abs_rel': np.float32(0.026754383), 'rmse': np.float32(0.039917935), 'log_10': np.float32(0.008502503), 'rmse_log': np.float32(0.0700405), 'silog': np.float32(0.06921437), 'sq_rel': np.float32(0.059157703), 'psnr': np.float64(28.267717095106136), 'ssim': np.float64(0.9807551754964288), 'pearson_corr': np.float32(0.016002892), 'see': np.float32(0.015780237)}
+evaluation num 35
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.9918948439094818), 'a2': np.float64(0.9930867664997338), 'a3': np.float64(0.9939578524857088), 'abs_rel': np.float32(0.049377386), 'rmse': np.float32(0.056272343), 'log_10': np.float32(0.011336642), 'rmse_log': np.float32(0.11111072), 'silog': np.float32(0.1104286), 'sq_rel': np.float32(0.24806793), 'psnr': np.float64(25.99389774278617), 'ssim': np.float64(0.9637321415098801), 'pearson_corr': np.float32(-0.035116594), 'see': np.float32(0.015926491)}
+evaluation num 36
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.9370846110301585), 'a2': np.float64(0.9481710665212889), 'a3': np.float64(0.9726879999204139), 'abs_rel': np.float32(0.0992299), 'rmse': np.float32(0.11821783), 'log_10': np.float32(0.027776675), 'rmse_log': np.float32(0.18676397), 'silog': np.float32(0.18150468), 'sq_rel': np.float32(0.18239528), 'psnr': np.float64(-14.552356539950317), 'ssim': np.float64(0.6550651921176855), 'pearson_corr': np.float32(nan), 'see': np.float32(0.033635747)}
+evaluation num 37
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.7719085271265143), 'a2': np.float64(0.8008886593036161), 'a3': np.float64(0.9698780360632901), 'abs_rel': np.float32(0.20309234), 'rmse': np.float32(0.20666054), 'log_10': np.float32(0.0628641), 'rmse_log': np.float32(0.29373965), 'silog': np.float32(0.26388234), 'sq_rel': np.float32(0.24285735), 'psnr': np.float64(13.759510847849453), 'ssim': np.float64(0.7334735920432203), 'pearson_corr': np.float32(0.2277624), 'see': np.float32(0.07182155)}
+evaluation num 38
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.8565984571449873), 'a2': np.float64(0.8890819906431733), 'a3': np.float64(0.9779314051331611), 'abs_rel': np.float32(0.1320671), 'rmse': np.float32(0.15715551), 'log_10': np.float32(0.041186944), 'rmse_log': np.float32(0.22567882), 'silog': np.float32(0.21061921), 'sq_rel': np.float32(0.16415155), 'psnr': np.float64(15.90513138635228), 'ssim': np.float64(0.7954883489594003), 'pearson_corr': np.float32(0.20781207), 'see': np.float32(0.046027448)}
+evaluation num 39
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.9703178807102886), 'a2': np.float64(0.9808422947779826), 'a3': np.float64(0.9902858788964726), 'abs_rel': np.float32(0.040200826), 'rmse': np.float32(0.074532636), 'log_10': np.float32(0.014671616), 'rmse_log': np.float32(0.102336615), 'silog': np.float32(0.1018736), 'sq_rel': np.float32(0.022793442), 'psnr': np.float64(21.506203985283477), 'ssim': np.float64(0.9334820517809412), 'pearson_corr': np.float32(0.12170933), 'see': np.float32(0.022483993)}
+evaluation num 40
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.8649749776068301), 'a2': np.float64(0.880182655136428), 'a3': np.float64(0.9173415015829247), 'abs_rel': np.float32(0.21652043), 'rmse': np.float32(0.2003983), 'log_10': np.float32(0.055375274), 'rmse_log': np.float32(0.3283671), 'silog': np.float32(0.3093972), 'sq_rel': np.float32(0.4797833), 'psnr': np.float64(13.665758417142248), 'ssim': np.float64(0.8104812000326118), 'pearson_corr': np.float32(0.11409989), 'see': np.float32(0.055569135)}
+evaluation num 41
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.9342188995005449), 'a2': np.float64(0.9401018919878963), 'a3': np.float64(0.950498807640655), 'abs_rel': np.float32(0.13176602), 'rmse': np.float32(0.15087995), 'log_10': np.float32(0.0334706), 'rmse_log': np.float32(0.25918335), 'silog': np.float32(0.25380534), 'sq_rel': np.float32(0.3242795), 'psnr': np.float64(15.701414452442437), 'ssim': np.float64(0.8706845401970242), 'pearson_corr': np.float32(0.10269012), 'see': np.float32(0.03329507)}
+evaluation num 42
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.8732644653317366), 'a2': np.float64(0.8816838947623726), 'a3': np.float64(0.904960361441955), 'abs_rel': np.float32(0.20221345), 'rmse': np.float32(0.19485149), 'log_10': np.float32(0.053669095), 'rmse_log': np.float32(0.31653404), 'silog': np.float32(0.3005278), 'sq_rel': np.float32(0.40453684), 'psnr': np.float64(13.678749009088744), 'ssim': np.float64(0.8142184238905995), 'pearson_corr': np.float32(0.16450498), 'see': np.float32(0.0548012)}
+evaluation num 43
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.8772707230468029), 'a2': np.float64(0.8872589828037567), 'a3': np.float64(0.9335613419357607), 'abs_rel': np.float32(0.15786444), 'rmse': np.float32(0.17726669), 'log_10': np.float32(0.04514627), 'rmse_log': np.float32(0.27154687), 'silog': np.float32(0.25936994), 'sq_rel': np.float32(0.25868076), 'psnr': np.float64(14.34244280191922), 'ssim': np.float64(0.818695448173164), 'pearson_corr': np.float32(0.09568655), 'see': np.float32(0.047578067)}
+evaluation num 44
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.8687221517756649), 'a2': np.float64(0.8805308425764717), 'a3': np.float64(0.9432433948702572), 'abs_rel': np.float32(0.15784785), 'rmse': np.float32(0.17881602), 'log_10': np.float32(0.046045043), 'rmse_log': np.float32(0.26948893), 'silog': np.float32(0.25643337), 'sq_rel': np.float32(0.23150197), 'psnr': np.float64(14.217755193292307), 'ssim': np.float64(0.8199387739496444), 'pearson_corr': np.float32(0.12938316), 'see': np.float32(0.049928345)}
+evaluation num 45
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.8955729987693696), 'a2': np.float64(0.9042805372647671), 'a3': np.float64(0.9643181260511804), 'abs_rel': np.float32(0.12398858), 'rmse': np.float32(0.14580174), 'log_10': np.float32(0.036665615), 'rmse_log': np.float32(0.22033954), 'silog': np.float32(0.20918465), 'sq_rel': np.float32(0.18379562), 'psnr': np.float64(16.846298723994774), 'ssim': np.float64(0.86779702922251), 'pearson_corr': np.float32(0.17070091), 'see': np.float32(0.043527007)}
+evaluation num 46
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.9078126615699689), 'a2': np.float64(0.9150957494524626), 'a3': np.float64(0.9611317862551679), 'abs_rel': np.float32(0.11743741), 'rmse': np.float32(0.14370827), 'log_10': np.float32(0.035772167), 'rmse_log': np.float32(0.21763065), 'silog': np.float32(0.20956711), 'sq_rel': np.float32(0.16014202), 'psnr': np.float64(16.508768226314036), 'ssim': np.float64(0.8741767687855014), 'pearson_corr': np.float32(0.12163061), 'see': np.float32(0.045368478)}
+evaluation num 47
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.9239363074858782), 'a2': np.float64(0.9346942836064446), 'a3': np.float64(0.9730000720381083), 'abs_rel': np.float32(0.11263121), 'rmse': np.float32(0.13720296), 'log_10': np.float32(0.030113423), 'rmse_log': np.float32(0.2256436), 'silog': np.float32(0.21778698), 'sq_rel': np.float32(0.2800235), 'psnr': np.float64(16.813379544722164), 'ssim': np.float64(0.8920148492431709), 'pearson_corr': np.float32(0.14963096), 'see': np.float32(0.034295257)}
+evaluation num 48
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.974049752312786), 'a2': np.float64(0.9761602371238103), 'a3': np.float64(0.9782566355223499), 'abs_rel': np.float32(0.07563603), 'rmse': np.float32(0.10101085), 'log_10': np.float32(0.019364083), 'rmse_log': np.float32(0.1792176), 'silog': np.float32(0.17678927), 'sq_rel': np.float32(0.19378355), 'psnr': np.float64(19.594388037517646), 'ssim': np.float64(0.9472474842092182), 'pearson_corr': np.float32(0.110745296), 'see': np.float32(0.02393312)}
+evaluation num 49
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.943389886720254), 'a2': np.float64(0.9474001178194524), 'a3': np.float64(0.9686646314969066), 'abs_rel': np.float32(0.103094675), 'rmse': np.float32(0.12752903), 'log_10': np.float32(0.027442897), 'rmse_log': np.float32(0.21740933), 'silog': np.float32(0.21269825), 'sq_rel': np.float32(0.23568428), 'psnr': np.float64(17.48341357838665), 'ssim': np.float64(0.9099616490984931), 'pearson_corr': np.float32(0.12816617), 'see': np.float32(0.030580243)}
+evaluation num 50
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.8528400674372745), 'a2': np.float64(0.9239765477170542), 'a3': np.float64(0.9880049309917585), 'abs_rel': np.float32(0.11296075), 'rmse': np.float32(0.14438455), 'log_10': np.float32(0.03835477), 'rmse_log': np.float32(0.1952141), 'silog': np.float32(0.183029), 'sq_rel': np.float32(0.085430354), 'psnr': np.float64(16.42599139434547), 'ssim': np.float64(0.8483188592891499), 'pearson_corr': np.float32(0.29197848), 'see': np.float32(0.0504034)}
+evaluation num 51
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.7509086434245495), 'a2': np.float64(0.7779476601884091), 'a3': np.float64(0.9546449522200102), 'abs_rel': np.float32(0.21966572), 'rmse': np.float32(0.21373321), 'log_10': np.float32(0.068831265), 'rmse_log': np.float32(0.30280554), 'silog': np.float32(0.2661909), 'sq_rel': np.float32(0.2278304), 'psnr': np.float64(13.642415924232486), 'ssim': np.float64(0.773684987119779), 'pearson_corr': np.float32(0.4310673), 'see': np.float32(0.08282037)}
+evaluation num 52
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.7998750860356474), 'a2': np.float64(0.8257512744700392), 'a3': np.float64(0.9581004482544045), 'abs_rel': np.float32(0.1843955), 'rmse': np.float32(0.18696873), 'log_10': np.float32(0.05803665), 'rmse_log': np.float32(0.26643053), 'silog': np.float32(0.23541415), 'sq_rel': np.float32(0.19228116), 'psnr': np.float64(15.390086977873569), 'ssim': np.float64(0.8083689443536703), 'pearson_corr': np.float32(0.28183013), 'see': np.float32(0.07026889)}
+evaluation num 53
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.9517974747963027), 'a2': np.float64(0.9571897952012747), 'a3': np.float64(0.9701108879131186), 'abs_rel': np.float32(0.08589649), 'rmse': np.float32(0.11826764), 'log_10': np.float32(0.025052313), 'rmse_log': np.float32(0.19115965), 'silog': np.float32(0.18896875), 'sq_rel': np.float32(0.14840588), 'psnr': np.float64(17.72364026896197), 'ssim': np.float64(0.9023121447657036), 'pearson_corr': np.float32(0.15308237), 'see': np.float32(0.028776173)}
+evaluation num 54
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.9343451490736945), 'a2': np.float64(0.9494905024250542), 'a3': np.float64(0.9711339648958668), 'abs_rel': np.float32(0.11216347), 'rmse': np.float32(0.13139309), 'log_10': np.float32(0.030225357), 'rmse_log': np.float32(0.21614149), 'silog': np.float32(0.21070081), 'sq_rel': np.float32(0.24576628), 'psnr': np.float64(17.29359068907997), 'ssim': np.float64(0.8782303455910947), 'pearson_corr': np.float32(0.19092563), 'see': np.float32(0.03279528)}
+evaluation num 55
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.761676081803029), 'a2': np.float64(0.7725520749874075), 'a3': np.float64(0.8125120791634031), 'abs_rel': np.float32(0.4126109), 'rmse': np.float32(0.2581879), 'log_10': np.float32(0.102811955), 'rmse_log': np.float32(0.441737), 'silog': np.float32(0.37147725), 'sq_rel': np.float32(0.8991404), 'psnr': np.float64(13.090863720177971), 'ssim': np.float64(0.7719010847700744), 'pearson_corr': np.float32(0.23712659), 'see': np.float32(0.1110857)}
+evaluation num 56
+inputs torch.Size([4, 3, 518, 518])
+labels torch.Size([4, 1, 518, 518])
+{'a1': np.float64(0.6399035453191699), 'a2': np.float64(0.8115578813037645), 'a3': np.float64(0.9008684245639688), 'abs_rel': np.float32(0.32265514), 'rmse': np.float32(0.23746085), 'log_10': np.float32(0.09794157), 'rmse_log': np.float32(0.34432217), 'silog': np.float32(0.2713471), 'sq_rel': np.float32(0.4076144), 'psnr': np.float64(14.202060958955542), 'ssim': np.float64(0.6676844189371176), 'pearson_corr': np.float32(0.32932222), 'see': np.float32(0.12127364)}
+evaluation num 57
+inputs torch.Size([1, 3, 518, 518])
+labels torch.Size([1, 1, 518, 518])
+{'a1': np.float64(0.5807699914544905), 'a2': np.float64(0.6260014852020882), 'a3': np.float64(0.7966392638174171), 'abs_rel': np.float32(0.47589236), 'rmse': np.float32(0.3101293), 'log_10': np.float32(0.13464816), 'rmse_log': np.float32(0.48393393), 'silog': np.float32(0.3929858), 'sq_rel': np.float32(0.73854667), 'psnr': np.float64(11.073025534971892), 'ssim': np.float64(0.6342894095160327), 'pearson_corr': np.float32(0.4454198), 'see': np.float32(0.1513966)}
+evaluation num 58
+evaluation ended; processing data...
+Evaluation metrics saved as C:\Users\yoame\Documents\ML\underwater\eval\after_training.csv
