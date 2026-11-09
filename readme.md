@@ -2,6 +2,14 @@
 
 This project fits the **UVMulti** underwater dataset into the **Depth Anything (small)** model and fine-tunes it with **LoRA** (parameter-efficient fine-tuning).
 
+This project was done under the guidance of **Pushpajit Khaire Sir** by a team:
+
+| Name | Roll Number |
+|---|---|
+| Amey Bhagat | 241DS009 |
+| Parv Jain | 241DS020 |
+| Saivinathi | 241DS025 |
+| Priyadharshni | 241DS021 |
 
 
 ## 1. Task
