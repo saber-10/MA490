@@ -100,7 +100,7 @@ For evaluation, the predicted depth is upsampled to the image size and compared 
 ## 6. Results
 Loss over 5 epochs:
 
-![loss curve](C:\Users\yoame\Documents\ML\underwater\depth_estimation\model\results\loss_curve.png)
+![loss curve](depth_estimation/model/results/loss_curve.png)
 
 | Epoch | Train loss | Validation loss |
 |---|---|---|
@@ -111,6 +111,8 @@ Loss over 5 epochs:
 | 5 | 0.069 | 0.149 |
 
 Both losses decrease, which shows the model is training on the new dataset. Before-vs-after metrics are in `results/metrics_comparison.csv`.
+
+training and evaluation logs are stored in `depth_estimation/eval_logs.txt and depth_estimation/train_log.txt`.
 
 
 ## 7. Project structure
